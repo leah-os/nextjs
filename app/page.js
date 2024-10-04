@@ -1,4 +1,6 @@
 export default function HomePage()
 {
-    return <h1>Root/Home Page</h1>
+    return (<>
+        <h1>Root/Home Page</h1>
+    </>);
 }

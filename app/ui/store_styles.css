@@ -1,0 +1,70 @@
+.city-picker {
+    display: inline-flex;
+    flex-direction: column;
+}
+
+.search-bar-container {
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    background: #cccccc;
+    padding: 0.5rem 10% 0.5rem 10%;
+}
+
+#search-bar-input {
+    height: 4vh;
+    width: 32vw;
+    padding-left: 20px;
+}
+
+.search-bar button {
+    height: 4vh;
+}
+
+.search-bar a {
+    width: 100px;
+    display: inline-block;
+}
+
+.navigation {
+    background-color: #eeeeee;
+}
+
+.navigation ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.navigation ul li {
+    align-content: center;
+    height: 4rem;
+    color: black;
+    cursor: pointer;
+    transition: 0.4s ease;
+}
+
+.navigation ul li:hover {
+    color: #00a0ff;
+}
+
+.categories {
+    box-sizing: border-box;
+    background-color: white;
+}
+
+.category {
+    width: 18vw;
+    margin: 2% 5%;
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.category a {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}

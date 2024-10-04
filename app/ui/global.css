@@ -4,8 +4,8 @@
 }
 
 .header {
-    width: 80%;
     display: flex;
+    box-sizing: border-box;
     padding: 1rem 10% 1rem 10%;
     justify-content: space-between;
 }
@@ -37,4 +37,10 @@ main {
     padding-left: 10%;
     padding-right: 10%;
     width: 100%;
+    box-sizing: border-box;
+}
+
+.footer {
+    padding-left: 10%;
+    padding-right: 10%;
 }

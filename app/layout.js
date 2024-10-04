@@ -8,6 +8,7 @@ export default function RootLayer({children})
       <html lang="en">
       <head>
           <title>Dashboard</title>
+          <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"/>
       </head>
       <body>
         
@@ -17,10 +18,9 @@ export default function RootLayer({children})
           <nav className="navbar">
             <ul>
                 <li><Link href="/" className="active">Home</Link></li>
-                <li><Link href="dashboard">Dashboard</Link></li>
-                <li><Link href="docs">Docs</Link></li>
-                <li><Link href="templates">Templates</Link></li>
-                <li><Link href="contacts">Contacts</Link></li>
+                <li><Link href="/dashboard">Dashboard</Link></li>
+                <li><Link href="/docs">Docs</Link></li>
+                <li><Link href="/store">Store</Link></li>
             </ul>
           </nav>
 
@@ -30,6 +30,10 @@ export default function RootLayer({children})
             {children}
         </main>
       
+        <footer className="footer">
+          <h1>This is my footer</h1>
+        </footer>
+
       </body>
     </html>);
 }
